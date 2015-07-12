@@ -28,4 +28,4 @@ par()
 png("plot2.png",height=480, width=480);
 plot(df$Global_active_power, type="l", xaxt="n", xlab="", ylab = "Global Active Power (kilowatts)")
 axis(1, at=c(1, nrow(df)/2, nrow(df)), labels = c("Thr", "Fri", "Sat"))
-dev.off ()
+dev.off()

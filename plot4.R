@@ -49,4 +49,4 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=
 plot(df$Global_reactive_power, type="l", xaxt="n", xlab="datetime", ylab = "Global_reactive_power")
 axis(1, at=c(1, nrow(df)/2, nrow(df)), labels = c("Thr", "Fri", "Sat"))
 
-dev.off ()
+dev.off()

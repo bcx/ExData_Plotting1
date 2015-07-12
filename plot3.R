@@ -33,4 +33,4 @@ points(df$Sub_metering_3, type="l", col="blue")
 axis(1, at=c(1, nrow(df)/2, nrow(df)), labels = c("Thr", "Fri", "Sat"))
 
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"), seg.len=2, lty=1, cex=.9)
-dev.off ()
+dev.off()
